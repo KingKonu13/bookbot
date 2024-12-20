@@ -9,7 +9,7 @@ def main():
         
     # print(counts_number_of_words_in_books(file_content))
     
-    def chars_counter(text):
+    def char_counter(text):
         table_of_chars = {}
         for char in text:
             char = char.lower()
